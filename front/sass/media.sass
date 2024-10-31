@@ -1,0 +1,706 @@
+@media screen and (min-width: 2200px)
+  .fav-page
+    .popup
+      &__wrap
+        transform: scale(1.5)
+    .main
+      &__banner
+        transform: scale(1.2)
+      &__game
+        margin-top: 100px
+        &::after
+          top: 0
+          width: 1320px
+          height: 850px
+
+
+@media screen and (min-width: 2400px)
+  .fav-page
+    .main
+      &__game
+        &::before
+          height: 950px
+
+@media screen and (max-width: 1621px)
+  .fav-page
+    .main
+      &__banner
+        transform: scale(.9)
+
+
+@media screen and (max-width: 1569px)
+  .fav-page
+    .main
+      &__banner
+        &-text
+          &-center
+            &::after
+              right: -200px
+
+
+
+@media screen and (max-width: 1548px)
+  .fav-page
+    .main
+      &__banner
+        transform: scale(.85)
+        &::before
+          width: 53%
+        &-left
+          &::before
+            right: 206px
+        &-right
+          &-img
+            width: 353px
+            height: 260px
+            margin-right: 12px
+        &-text
+          &-top
+            font-size: 33px
+          &-center
+            font-size: 82px
+            .center-subtext
+              width: 279px
+              height: 70px
+              font-size: 16px
+              line-height: 27.4px
+              top: 6px
+              right: 10px
+              padding-top: 9px
+              background: url("../img/subtext-bg2.png") no-repeat 0 0/cover
+            &::after
+              right: -150px
+              bottom: 111px
+          &-bottom
+            white-space: nowrap
+            font-size: 17px
+        &-icons
+          &-left
+            gap: 11px
+          &-right
+            &::before
+              right: -25px
+        &-bottom
+          &-item
+            font-size: 8px
+
+@media screen and (max-width: 1500px)
+  .fav-page
+    .main
+      &__banner
+        &:before
+          width: 50%
+        &-left
+          &:before
+            //right: 198px
+
+
+@media screen and (max-width: 1468px)
+  .fav-page
+    .main
+      &__banner
+        &::before
+          width: 49%
+        &-left
+          &::before
+            right: 180px
+        &-bottom
+          padding: 0 11%
+
+@media screen and (max-width: 1426px)
+  .fav-page
+    .main
+      &__banner
+        &-left
+          &::before
+            right: 132px
+        &-text
+          &-center
+            &::after
+              bottom: 84px
+
+@media screen and (max-width: 1380px)
+  .fav-page
+    .main
+      &__banner
+        transform: scale(1.5)
+        max-width: 710px
+        margin-bottom: 130px
+        &::before
+          content: none
+        &-right
+          &::after
+            background: url("../img/top-decor-tab.svg") no-repeat 0 0/contain
+            width: 450px
+            height: 16px
+          &-img
+            width: 207px
+            height: 151px
+            margin: auto 0 12px 0
+        &-left
+          max-width: 370px
+          padding-bottom: 40px
+          &::before
+            width: 101px
+            height: 12px
+            top: 10px
+            right: 9px
+        &-text
+          &-bonus
+            font-size: 12px
+            transform: translate(-1%, -150%)
+            white-space: nowrap
+          &-top
+            font-size: 14px
+            padding: 6px 9px 5px 13px
+            clip-path: polygon(4.5% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 33%)
+            margin-bottom: 8px
+            span:not(:first-child)
+              margin-left: 9px
+          &-center
+            font-size: 45px
+            line-height: 45px
+            .center-subtext
+              font-size: 8.8px
+              width: 155px
+              height: 39px
+              line-height: 12px
+              padding: 9px 6px 3px 8px
+              top: 0
+              right: 16px
+            //right: 45px
+            &::after
+              bottom: auto
+              top: -15px
+              right: -145px
+              width: 50px
+              height: 50px
+              transform: translate(0, -0)
+          &-bottom
+            max-width: 376px
+            font-size: 13px
+            line-height: 18px
+            margin-top: 10px
+            white-space: normal
+        &-wrap
+          background-position: 37% 50%
+          &::before
+            width: 100%
+            bottom: -2px
+        &-icons
+          &-left
+            gap: 10px
+            margin-right: 16px
+            &::before
+              top: 1px
+              left: -5px
+            .cubes-icon
+              width: 47px
+              height: 47px
+              background-position: -5px -4px
+            .cherry-icon
+              background-position: -6px -8px
+              width: 47px
+              height: 47px
+            .cards-icon
+              width: 47px
+              height: 47px
+          &-right
+            padding-top: 8px
+            gap: 6px
+            &::before
+              width: 48px
+              height: 182px
+              right: -15px
+              top: 1px
+              background: url("../img/icons-right-decor-tab.svg") no-repeat 0 0/contain
+            .sport-icon
+              width: 24px
+              height: 24px
+            .game-icon
+              width: 24px
+              height: 24px
+            .fav-icon
+              width: 24px
+              height: 24px
+            .loading-icon
+              width: 21px
+              height: 21px
+              margin-bottom: 12px
+        &-bottom
+          justify-content: center
+          margin-top: 7px
+          align-items: flex-start
+          &-item
+            &:nth-child(1), &:nth-child(3)
+              display: none
+            &:nth-child(2)
+              font-size: 7.5px
+              line-height: 12px
+              margin-left: 0
+            &:nth-child(2)::before, &:nth-child(2)::after
+              width: 83px
+              height: 28px
+            &:nth-child(2)::before
+              right: 0
+            &:nth-child(2)::after
+              left: 0
+
+@media screen and (max-width: 1120px)
+  .fav-page
+    .main
+      &__banner
+        transform: scale(1.25)
+        margin-bottom: 60px
+
+@media screen and (max-width: 950px)
+  .fav-page
+    .main
+      &__banner
+        transform: scale(1.1)
+        margin-bottom: 30px
+
+@media screen and (max-width: 850px)
+  .fav-page
+    .main
+      &__banner
+        transform: scale(1.05)
+        margin-bottom: 10px
+
+@media screen and (max-width: 785px)
+  .fav-page
+    .main
+      &__banner
+        transform: scale(1)
+        margin-bottom: 0
+
+@media screen and (max-width: 745px)
+  .fav-page
+    .main
+      &__banner
+        transform: scale(.93)
+        margin-bottom: -10px
+
+@media screen and (max-width: 700px)
+  .fav-page
+    .popup
+      &__wrap
+        max-width: 345px
+        height: 420px
+        padding: 0 28px
+        &::before
+          width: 95%
+          height: 76%
+          top: 0.5%
+          left: 1.5%
+      &__list
+        margin-bottom: 31px
+        &-item
+          line-height: 18px
+          font-size: 14px
+      &__title
+        margin-bottom: 29px
+      &__btn
+        font-size: 16px
+        padding: 17px 23px 15px 23px
+    .main
+      background: url("../img/bg-mob.png") no-repeat -3vw 165px/cover
+      background-size: 107.2vw 169vw
+      &::before
+        height: 160px
+        bottom: 0
+        background: linear-gradient(180deg, rgba(0, 0, 61, 0) 0%, #00003D 66%)
+      &__banner
+        max-width: 338px
+        min-width: 338px
+        transform: scale(1)
+        &-wrap
+          flex-direction: column
+          &::before
+            content: none
+
+        &-text
+          &-bonus
+            font-size: 9px
+            top: 6px
+            white-space: normal
+            width: 180px
+            line-height: 10px
+          &-top
+            margin-bottom: 5px
+            padding: 9px 3px 7px 7px
+            font-size: 18px
+            clip-path: polygon(3.5% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 26%)
+            span:not(:first-child)
+              margin-left: 8px
+          &-center
+            font-size: 33px
+            line-height: 36px
+            margin-top: 0
+            .center-subtext
+              top: 0
+              right: -21px
+              width: 161px
+              height: 31px
+              font-size: 9px
+              line-height: 10.8px
+              padding: 6px 6px 3px 8px
+              background: url("../img/subtext-bg.png") no-repeat 0 0/cover
+            &::after
+              top: -36px
+              right: -108px
+              width: 35px
+              height: 35px
+          &-bottom
+            line-height: 18px
+            max-width: 340px
+            margin-top: 33px
+        &-left
+          padding-bottom: 0
+          &::before
+            width: 61px
+            height: 7px
+            top: auto
+            right: auto
+            bottom: 71px
+            left: 0
+        &-right
+          position: static
+          padding: 0
+          justify-content: flex-end
+          &::before
+            width: 135px
+            height: 8px
+            top: -6px
+            right: -2px
+          &::after
+            content: none
+          &-img
+            margin: auto 26px 6px 0
+        &-icons
+          &-left
+            margin-right: 10px
+            &::before
+              content: none
+            .cubes-icon
+              width: 43px
+              height: 43px
+              background-position: -5px -4px
+            .cherry-icon
+              background-position: -6px -8px
+              width: 43px
+              height: 43px
+            .cards-icon
+              width: 43px
+              height: 43px
+          &-right
+            position: static
+            margin-right: 15px
+            padding-top: 1px
+            &::before
+              width: 344px
+              height: 384px
+              background: url("../img/banner-decor-mob.svg") no-repeat 0 0/contain
+              top: 0
+              right: -4px
+            .sport-icon
+              width: 22px
+              height: 22px
+            .game-icon
+              width: 22px
+              height: 22px
+            .fav-icon
+              width: 22px
+              height: 22px
+            .loading-icon
+              width: 20px
+              height: 20px
+              margin-bottom: 6px
+        &-bottom
+          margin-top: 15px
+          &-item
+            &:nth-child(2)
+              text-align: center
+              max-width: 229px
+              font-size: 9px
+              line-height: 13.5px
+            &:nth-child(2)::before
+              right: -7px
+            &:nth-child(2)::after
+              left: -4px
+            &:nth-child(2)::before, &:nth-child(2)::after
+              width: 43px
+              height: 15px
+      &__game
+        &::before
+          content: none
+        &::after
+          content: none
+        &-machine
+          width: 385px
+          height: 540px
+          padding-top: 0
+          &-text
+            font-size: 18px
+            line-height: 18px
+            top: 32px
+          &-btn
+            padding: 1px 45px
+            font-size: 17px
+            line-height: 26px
+            bottom: 170px
+            &:active
+              bottom: 168px
+            &::before
+              height: 20px
+              bottom: 1px
+        .btn-off
+          &:active
+            bottom: 170px
+        &-playground
+          top: 113px
+          right: 27px
+          transform: scale(.56)
+          .start-text
+            font-size: 18px
+          .FS
+            font-size: 16px
+          .result
+            margin-top: 20px
+    .drop
+      &__btn
+        padding: 16px 15px 15px
+        font-size: 14px
+        outline: none
+      &__sublist
+        &-item
+          font-size: 10px
+          line-height: 16px
+          &:not(:first-child)
+            margin-top: 15px
+      &__list
+        padding: 22px 20px 18px 16px
+        &-title
+          font-size: 10px
+          line-height: 16px
+        &-item
+          font-size: 10px
+          line-height: 16px
+          margin-left: 30px
+          margin-bottom: 10px
+    .rules
+      margin-top: 9px
+    .details
+      margin-top: -107px
+      &__list
+        padding: 10px
+        &-item
+          font-size: 10px
+          line-height: 16px
+
+@media screen and (max-width: 700px) and (min-height: 600px) and (min-width: 650px)
+  .fav-page
+    .main
+      background-position: -3vw 10px
+      &::before
+        bottom: 0
+
+@media screen and (max-width: 393px)
+  .fav-page
+    .main
+      background-position: -3vw 190px
+      //&__game
+      //  &-machine
+      //    right: 6px
+
+@media screen and (max-width: 380px)
+  .fav-page
+    .main
+      &__game
+        &-machine
+          right: 3px
+
+@media screen and (max-width: 375px)
+  .fav-page
+    .main
+      &__game
+        &-machine
+          right: 5px
+
+@media screen and (max-width: 365px)
+  .fav-page
+    .main
+      &__game
+        &-machine
+          right: 11px
+
+@media screen and (max-width: 360px)
+  .fav-page
+    .main
+      background-position: -3vw 180px
+      &::before
+        bottom: 48px
+      &__banner
+        transform: scale(.95)
+      &__game
+        margin-top: -30px
+        &-machine
+          transform: scale(.9)
+          right: 12px
+          bottom: 27px
+    .details
+      margin-top: -150px
+
+@media screen and (max-width: 350px)
+  .fav-page
+    .popup
+      &__wrap
+        transform: scale(.9)
+        min-height: 378px
+      &__list
+        margin-bottom: 20px
+      &__btn
+        padding: 17px 20px 15px 20px
+    .main
+      &__banner
+        transform: scale(.9)
+      &__game
+        &-machine
+          right: 21px
+
+@media screen and (max-width: 337px)
+  .fav-page
+    .main
+      background-position: -3vw 175px
+      &__banner
+        position: relative
+        right: 2px
+      &__game
+        margin-top: -50px
+        &-machine
+          right: 24px
+
+@media screen and (max-width: 335px)
+  .fav-page
+    .main
+      &__banner
+        right: 10px
+      &__game
+        &-machine
+          right: 33px
+
+@media screen and (max-width: 320px)
+  .fav-page
+    .popup
+      &__btn
+        padding: 16px 15px 15px
+    .main
+      &__banner
+        transform: scale(.85)
+      &__game
+        margin-top: -80px
+
+@media screen and (max-width: 305px)
+  .fav-page
+    .main
+      &__banner
+        transform: scale(.8)
+        right: 20px
+      &__game
+        margin-top: -120px
+        &-machine
+          transform: scale(.83)
+          right: 40px
+    .details
+      margin-top: -162px
+
+@media screen and (max-width: 280px)
+  .fav-page
+    .popup
+      &__wrap
+        max-height: 386px
+      &__title
+        font-size: 16px
+        margin-bottom: 21px
+      &__list
+        &-item
+          font-size: 13px
+          line-height: 17px
+      &__btn
+        padding: 16px 20px 15px 20px
+        font-size: 15px
+    .main
+      &__banner
+        transform: scale(.75)
+        right: 31px
+      &__game
+        margin-top: -160px
+        &-machine
+          bottom: 17px
+          transform: scale(.76)
+          right: 52px
+
+@media screen and (max-height: 350px)
+  .fav-page
+    .popup
+      &__wrap
+        transform: scale(.8)
+
+@media screen and (max-height: 337px)
+  .fav-page
+    .main
+      &__game
+        &-machine
+          transform: scale(.85)
+
+@media screen and (max-height: 320px)
+  .fav-page
+    .popup
+      &__wrap
+        transform: scale(.73)
+
+@media screen and (max-width: 950px) and (orientation: landscape)
+  .fav-page
+    .popup
+      &__wrap
+        transform: scale(.7)
+        max-width: 425px
+        top: 20px
+
+@media screen and (max-width: 950px) and (orientation: landscape) and (max-height: 350px)
+  .fav-page
+    .popup
+      &__wrap
+        top: 25px
+        transform: scale(.65)
+
+@media screen and (max-width: 950px) and (orientation: landscape) and (max-height: 310px)
+  .fav-page
+    .popup
+      &__wrap
+        top: 15px
+        transform: scale(.6)
+
+@media screen and (max-width: 750px) and (orientation: landscape) and (max-height: 450px)
+  .fav-page
+    .main
+      &__banner
+        transform: scale(.95)
+
+@media screen and (max-width: 700px) and (orientation: landscape)
+  .fav-page
+    .main
+      &__banner
+        transform: scale(.98)
+
+@media screen and (max-width: 667px) and (orientation: landscape)
+  .fav-page
+    .main
+      background-position: -3vw 30px
+      &::before
+        bottom: 0
+
+@media screen and (max-width: 620px) and (orientation: landscape)
+  .fav-page
+    .main
+      background-position: -3vw 60px
